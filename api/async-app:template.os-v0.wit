@@ -1,0 +1,3 @@
+world async-app-template-dot-os-v0 {
+    include process-v1;
+}

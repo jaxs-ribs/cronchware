@@ -1,0 +1,22 @@
+[
+    {
+        "process_name": "async-requester",
+        "process_wasm_path": "/async-requester.wasm",
+        "on_exit": "None",
+        "request_networking": true,
+        "request_capabilities": [
+            "http-server:distro:sys",
+            "http-client:distro:sys",
+            "vfs:distro:sys",
+            "homepage:homepage:sys"
+
+        ],
+        "grant_capabilities": [
+            "http-server:distro:sys",
+            "http-client:distro:sys",
+            "vfs:distro:sys",
+            "homepage:homepage:sys"
+        ],
+        "public": true
+    }
+]
