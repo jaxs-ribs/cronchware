@@ -1,0 +1,13 @@
+*/target/
+/target
+pkg/*.wasm
+pkg/*.zip
+*.swp
+*.swo
+*/wasi_snapshot_preview1.wasm
+*/wit/
+*/process_env
+**/target/
+.DS_Store
+**/.DS_Store
+
